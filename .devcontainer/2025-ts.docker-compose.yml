@@ -1,0 +1,8 @@
+services:
+  2025-ts:
+    build:
+      context: ../
+      dockerfile: .devcontainer/2025-ts.Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ../:/aoc-2025-ts

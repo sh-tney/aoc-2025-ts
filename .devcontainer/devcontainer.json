@@ -1,0 +1,13 @@
+{
+	"name": "2025 TS",
+	"dockerComposeFile": "2025-ts.docker-compose.yml",
+	"service": "2025-ts",
+	"workspaceFolder": "/aoc-2025-ts",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"biomejs.biome"
+			]
+		}
+	}
+}
